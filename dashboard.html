@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta name="description" content="Marweb multipurpose website is dedicated to provide unforgettable experience">
+     <meta name="author" content="onyeka marvelous">
+     <title>Marweb dashboard</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="dash.css" type="text/css" media="all" />
+     </head>
+     <body class="body">
+          <header>
+                         <div class="container">
+               <div id="branding">
+                    <h2><span class="highlight"></span>Mar</span>web</h2>
+               </div>
+<nav>
+         <span>
+            <a href="#" class="current">overview</a>         </span>
+            <span><a href="home.html">Home</a></span>
+            <span><a href="login.html">Logout</a></span>
+                        <span><a href="#">Settings</a></span>
+                           <span><a href="#">Members</a></span>
+         
+</nav>
+          </div>
+          <div id="mysidenav" class="sidenav">
+                
+               <span  class="closebtn" onclick="closeNav()">&times;</span>
+
+               <a href="#" class="current">Overview</a>
+               <a href="home.html">Homepage</a>              <a href="login.html">Logout</a>
+               <a href="#" id="set">Settings</a>
+                              <a href="#">Member</a>
+               <a href="#">Projects</a>
+               <a href="#">Notifications</a>
+                              <a href="#">Blog</a>
+                                             <a href="#" onclick="opton()">Search</a>
+                                        <span class="tell"></span>                    <div class="see">
+      <input type="search" name="" id="on" value="" />
+                      </div>
+          </div>
+ <i class="fa fa-search search" onclick="bar()"></i>
+          <span class="open" style=" font-size:30px; cursor:pointer;" onclick="openNav()"> &#9776;</span>
+          <br />
+          </header> 
+          <div class="settings">
+             <input type="file" name="profile" id="demo" value="" onchange="readFile();" multiple="multiple"/> 
+             <img id="result" src="pro.jpg" alt="These is your profile pic">
+                    <br />               <p class="Po hi"></p> 
+             <br />
+             <br />
+<hr>
+<a class="light" href="#">light mode</a>
+<hr />
+<a class="dark" href="#">dark mode</a>
+
+             <button id="exit" type="button">Exit settings</button>
+          </div>
+          <div class="book">
+<span class="mem" id="ber" onclick="ber()">Members</span>
+<span class="mem" onclick="gro()" id="group">Groups</span>
+                    </div>
+                                             <h1 class="bo">Member</h1>
+                    <section class="page1">
+
+                         <div class="member">
+                              
+                        
+                         <div class="item">
+                    <span>Profile</span>  
+                    <span>Member name</span>  
+                    <span></span>  <span class="tin">Action</span>
+                                        </div>  
+                        <br /> 
+                        <br /><div class="user">
+                      <img src="pro.jpg" class="pro" alt="profile" />
+                           
+
+     <article>
+
+                      <span class="name p"></span> 
+<button type="button" class="act">Active</button>
+     </article>
+<br />
+<br />
+                 </div>
+                 </div>
+                 
+                 <div class="group">
+                                                              <div class="grob">
+                      <img src="up.jpg" alt="profile" />
+                           
+
+     <article>
+
+                      <span class="name p">Mobile web design group</span>  
+
+<button type="button" class="act"><a href="https://chat.whatsapp.com/BH5NQRgPWOX4ndr3Wrs5zw">View</a></button>
+     </article>
+
+                 </div>
+                 </div>
+                 
+                    </section>
+          <script src="dash.js" type="text/javascript" charset="utf-8"></script>
+           <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+     </body>
+</html>

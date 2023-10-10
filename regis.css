@@ -1,0 +1,138 @@
+body {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    font-family: 'Poppins', sans-serif;
+}
+
+.center h1{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding: 5px 0 30px 0;
+}
+
+#form {
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    font-size: 12px;
+}
+#reg a{
+     font-size: 20px;
+     color: blue;
+     text-decoration: none;
+}
+#reg{
+     font-size: 20px;
+}
+#form h1 {
+    color: #0f2027;
+    text-align: center;
+}
+
+#form button {
+    padding: 9px;
+    margin-top: 20px;
+    width: 100%;
+    color: white;
+    background-color: rgb(41, 57, 194);
+    border: none;
+    border-radius: 12px;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+    border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  font-size: 12px;
+  padding: 10px;
+  width: 100%;
+}
+
+.input-control input:focus {
+    outline: 0;
+    padding: 13px;
+    border-radius: 13px;
+    border: 3px solid dodgerblue;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control .error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+
+.input-control i{
+     transform: translateY(-50%)
+     }
+     input#file{
+       display: none;   
+     }
+     #photo{
+     width: 190px;
+     height: 200px;
+        margin-left: 70px;
+   margin-top: 40px;
+   border-radius: 53%;
+
+}
+label.add{
+     flex-direction: center;
+     justify-content: center;
+     display: flex;
+     font-size: 20px;
+ text-align: center;
+    align-items: center;
+    background: #0017FF;
+    height: 37px;
+}
+input[type="checkbox"]{
+      border-radius: 30%;
+         width: 30px;
+         height: 40px;
+
+}
+.checkbox{
+     margin-top: 3px;
+         margin-left: 133px;
+     font-size: 18px;
+     width: 160px;
+     font-weight: bold;
+     text-decoration: none;
+     
+     
+}
+.line{
+     margin-top: -80px;
+     color: dodgerblue;
+     line-height: 20px;
+     padding-bottom: 10px;
+}
+input[type="radio"]{
+     width: 30px;
+     height: 35px;
+     color: blue;
+     
+}
+.radio{
+     display: flex;
+     justify-content: space-between;
+}
+.pol{
+     color: dodgerblue;
+     font-size: 26px;
+}

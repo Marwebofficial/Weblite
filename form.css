@@ -1,0 +1,510 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+     background: hsla(222,47%,11%,1);
+     background-position: center;
+     background-repeat: no-repeat;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     width: 100%;
+     height: 100vh;
+     
+     
+}
+.container{
+     position: relative;
+     background: whitesmoke;
+     height: auto;
+     width: 100%;
+    
+     margin-top: 7%;
+     margin-bottom: 27%;
+     border-radius: 5px;
+}
+.container h1{
+     margin-top: 9%;
+     font-size: 34px;
+     text-align: center;
+     align-items: center;
+     color: dodgerblue;
+     text-transform: uppercase;
+     margin-bottom: 20%;
+}
+.container .form-input .error{
+     color: dodgerblue;
+     font-size: 18px;
+     height: 19px;
+}
+.container .form-input .error input{
+     border-color: #FF001B;
+}
+.container .form-input .success input {
+     border-color: #0061FF;
+}
+.container .form-input i{
+     transform: translateY(-50%);
+}
+.container label p{
+     color: dodgerblue;
+     font-size: 19px;
+     text-transform: uppercase;
+     margin-left: 12px;
+}
+.container form{
+     
+}
+.container input{
+     padding: 10px;
+     margin-left: 40px;
+     width: 80%;
+     border: none;
+     outline: none;
+     border-radius: 6px;
+}
+.container input:focus{
+     width: 83%;
+     border: 2px solid dodgerblue;
+     box-shadow: 0px 6px 6px 0px;
+}
+span {
+     font-size: 17px;
+     color: dodgerblue;
+     font-weight: bold;
+     margin-left: 10px;
+     margin-top: 40px;
+}
+a{
+     text-decoration: none;
+  color:dodgerblue;
+}
+input[type="submit"]{
+     padding: 12px;
+     margin-top: 25px;
+     margin-bottom: 10px;
+     font-size: 18px;
+     color: dodgerblue;
+     background: hsla(222,47%,11%,1);
+     border: none;
+     outline: none;
+}
+.verify{
+     width: 90%;
+     background: hsla(222,47%,11%,1);
+     height: 13vh;
+     padding: 10px;
+     margin-left: 20px;
+     background-position: center;
+     
+}
+.check {
+   
+     float: left;
+     width: 30%;
+     box-sizing: border-box;
+}
+.check input[type="checkbox"]{
+     height: 35px;
+     width: 40px;
+     color: dodgerblue;
+     border: none;
+     outline: none;
+     
+}
+.check span{
+     font-size: 28px;
+}
+.check p{
+     font-size: 30px;
+     color: whitesmoke;
+}
+.security{
+     display: none;
+}
+.verify {
+     display: none;
+}
+.create{
+     background: whitesmoke;
+     height: 76vh;
+     width: 100%;
+     
+     margin-top: 17%;
+     margin-bottom: 17%;
+     border-radius: 5px;
+}
+.create h1{
+       margin-top: 9%;
+     font-size: 34px;
+     text-align: center;
+     align-items: center;
+     color: dodgerblue;
+     text-transform: uppercase;
+     margin-bottom: 20%;
+}
+.create .form-input .error{
+     color: dodgerblue;
+     font-size: 18px;
+     height: 19px;
+}
+.create .form-input .error input{
+     border-color: #FF001B;
+}
+.create .form-input .success input {
+     border-color: #0061FF;
+}
+.create .form-input i{
+     transform: translateY(-50%);
+}
+.create label p{
+     color: dodgerblue;
+     font-size: 19px;
+     text-transform: uppercase;
+     margin-left: 12px;
+}
+.create form{
+     
+}
+.create input{
+     padding: 10px;
+     margin-left: 40px;
+     width: 80%;
+     border: 2px solid green;
+     outline: none;
+     border-radius: 6px;
+}
+.create input:focus{
+     width: 83%;
+     border: 2px solid dodgerblue;
+     box-shadow: 0px 6px 6px 0px;
+}
+button{
+     background: dodgerblue;
+     padding: 10px;
+     width: 100px;
+     color: whitesmoke;
+     border: none;
+     font-size: 19px;
+     border-radius: 6px;
+     outline-color: none;
+     float: right;
+     margin-top: 40px;
+     margin-right: 20px;
+}
+.btn3{
+     margin-top: 50%;
+}
+img{
+     height: 95px;
+     line-height: 1px;
+     width: 110px;
+     padding-top: 4px;
+     padding-bottom: 4px;
+     transition: 3s all ease;
+}
+.pic{
+     float: left;
+     
+     width: 50%;
+     box-sizing: border-box;
+}
+
+.picture {
+     display: none;
+     width: 90%;
+     height: 76vh;
+     overflow: hidden;
+     margin-top: -19%;
+}
+.picture h3{
+     font-size: 30px;
+     color: dodgerblue;
+     text-align: center;
+     align-items: center;
+     margin-bottom: 78px;
+}
+.pic-content{
+     border-radius: 7px;
+     margin-left: 10%;
+     height: 212px;
+     overflow: hidden;
+     width: 90%;
+     border: 3px solid hsla(222,47%,11%,1);
+     box-shadow: 0px 9px 9px 0px;
+     margin-top: -20%;
+     box-sizing: border-box;
+}
+
+.container p{
+     font-size: 18px;
+     text-align: center;
+     align-items: center;
+     padding-inline: 20px;
+     color: dodgerblue;
+}
+#more{
+     display: none;
+     color: brown;
+}
+#request{
+     margin-top: 20px;
+}
+i{
+     color: red;
+     font-size: 18px;
+}
+@media screen and (min-width:1200px){
+     .container{
+     position: relative;
+     background: whitesmoke;
+     height: auto;
+     width: 70%;
+    margin-left: 15%;
+     margin-top: 22%;
+     margin-bottom: 5%;
+     border-radius: 5px;
+}
+.container h1{
+     margin-top: 16%;
+     font-size: 37px;
+     text-align: center;
+     align-items: center;
+     color: dodgerblue;
+     text-transform: uppercase;
+     margin-bottom: 4%;
+}
+.container .form-input .error{
+     color: dodgerblue;
+     font-size: 18px;
+     height: 19px;
+}
+.container .form-input .error input{
+     border-color: #FF001B;
+}
+.container .form-input .success input {
+     border-color: #0061FF;
+}
+.container .form-input i{
+     transform: translateY(-50%);
+}
+.container label p{
+     color: dodgerblue;
+     font-size: 21px;
+     text-transform: uppercase;
+     display: grid;
+     place-content: center;
+}
+.container form{
+     
+}
+.container input{
+     padding: 10px;
+     margin-left: 40px;
+     width: 80%;
+     border: none;
+     outline: none;
+     border-radius: 6px;
+}
+.container input:focus{
+     width: 83%;
+     border: 2px solid dodgerblue;
+     box-shadow: 0px 6px 6px 0px;
+}
+span {
+     font-size: 20px;
+     color: dodgerblue;
+     font-weight: bold;
+     margin-left: 4%;
+     margin-top: 40px;
+}
+a{
+     text-decoration: none;
+  color:dodgerblue;
+}
+input[type="submit"]{
+     padding: 12px;
+     margin-left: 10%;
+     margin-top: 25px;
+     margin-bottom: 10px;
+     font-size: 18px;
+     color: dodgerblue;
+     background: hsla(222,47%,11%,1);
+     border: none;
+     outline: none;
+}
+}
+
+@media screen and (min-width:1200px){
+     .create{
+     background: whitesmoke;
+     height: auto;
+     width: 70%;
+     margin-left: 15%;
+     margin-top: 17%;
+     margin-bottom: 17%;
+     border-radius: 5px;
+}
+.create h1{
+       margin-top: 23%;
+     font-size: 34px;
+     text-align: center;
+     align-items: center;
+     color: dodgerblue;
+     text-transform: uppercase;
+     margin-bottom: 5%;
+}
+.create .form-input .error{
+     color: dodgerblue;
+     font-size: 18px;
+     height: 19px;
+}
+.create .form-input .error input{
+     border-color: #FF001B;
+}
+.create .form-input .success input {
+     border-color: #0061FF;
+}
+.create .form-input i{
+     transform: translateY(-50%);
+}
+.create label p{
+     color: dodgerblue;
+     font-size: 19px;
+     text-transform: uppercase;
+     margin-left: 12px;
+}
+.create form{
+     
+}
+.create input{
+     padding: 10px;
+     margin-left: 40px;
+     width: 80%;
+     border: 2px solid green;
+     outline: none;
+     border-radius: 6px;
+}
+.create input:focus{
+     width: 83%;
+     border: 2px solid dodgerblue;
+     box-shadow: 0px 6px 6px 0px;
+}
+button{
+     background: dodgerblue;
+     padding: 10px;
+     width: 100px;
+     color: whitesmoke;
+     border: none;
+     font-size: 19px;
+     border-radius: 6px;
+     outline-color: none;
+     float: right;
+     margin-top: 40px;
+     margin-right: 20px;
+}
+.btn3{
+     margin-top: 50%;
+}
+img{
+     height: 95px;
+     line-height: 1px;
+     width: 110px;
+     padding-top: 4px;
+     padding-bottom: 4px;
+     transition: 3s all ease;
+}
+.pic{
+     float: left;
+     
+     width: %;
+     box-sizing: border-box;
+}
+#pic4{
+     height: 95px;
+}
+.picture {
+     display: none;
+     width: 90%;
+     height: auto;
+     
+     margin-top: 12%;
+}
+.picture h3{
+     font-size: 30px;
+     color: dodgerblue;
+     text-align: center;
+     align-items: center;
+     margin-bottom: 22%;
+}
+.pic-content{
+     border-radius: 7px;
+     margin-left: 10%;
+     height: 212px;
+     overflow: hidden;
+     width: 90%;
+     border: 3px solid hsla(222,47%,11%,1);
+     box-shadow: 0px 9px 9px 0px;
+     margin-top: -20%;
+     box-sizing: border-box;
+}
+
+.container p{
+     font-size: 18px;
+     text-align: center;
+     align-items: center;
+     padding-inline: 20px;
+     color: dodgerblue;
+}
+#more{
+     display: none;
+     color: brown;
+}
+#request{
+     margin-top: 20px;
+}
+i{
+     color: red;
+     font-size: 18px;
+}
+.verify{
+     width: 90%;
+     background: hsla(222,47%,11%,1);
+     height: 20vh;
+     padding: 10px;
+     margin-top: 14%;
+     margin-left: 20px;
+     background-position: center;
+     
+}
+.check {
+   
+     float: left;
+     width: 30%;
+     box-sizing: border-box;
+}
+.check input[type="checkbox"]{
+     height: 36px;
+     width: 40px;
+     color: dodgerblue;
+     background: none;
+     border: none;
+     outline: none;
+     
+}
+.check span{
+     font-size: 28px;
+}
+.check p{
+     font-size: 30px;
+     color: whitesmoke;
+}
+.security{
+     display: none;
+}
+.verify {
+     display: none;
+}
+}

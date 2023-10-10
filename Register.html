@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+     <head>
+          <meta  charset="utf-8" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <meta name="description" content="Marweb multipurpose website is dedicated to provide unforgettable experience">
+     <meta name="author" content="onyeka marvelous">
+          <title>Create a marweb account</title>
+          <link rel="stylesheet" href="form.css" type="text/css" media="all" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     </head>
+     <body>
+         <div class="create">
+              <h1>Create account</h1>
+              <form id="form" action="request.html" method="get" autocomplete="on" autofill="on">
+                   <div class="name">
+                        
+                   <div class="form-input">
+                        <label for="Firstname"><p>Firstname</p></label><br>
+                        <input type="text" name="fname" id="fname" value="" required/>
+                     <div class="error"></div>
+                   </div>
+                                      <div class="form-input">
+                        <label for="Username"><p>Username</p></label><br>
+                        <input type="text" name="user" id="user" value="" />
+                     <div class="error"></div>
+                     </div>
+                     <button type="button" onclick="btn1()" class="nm">Next</button>
+                     </div>
+                     <div class="security">
+                                        <div class="form-input">
+                        <label for="Email"><p>Email</p></label><br>
+                        <input type="email" name="Email" id="Email" value="" />
+                     <div class="error"></div>
+                   </div>
+                                      <div class="form-input">
+                        <label for="password"><p>password</p></label><br>
+                        <input type="password" name="pass" id="pass" value="" />
+                     <div class="error"></div>
+                   </div>
+                                                                                <button type="button" onclick="btn2()" class="sc">Next</button>
+                                        </div>
+
+                                        <div class="verify">
+                                             <div class="check">
+                                 <input type="checkbox" name="" id="" />            </div>
+                                 <div class="check">
+
+                                 <span>verify </span>
+                                                      </div>
+                           <div class="check mar">
+
+                                 <p>Marweb</p>
+                                                      </div>
+                                                      <br>
+                                                      <button type="button" onclick="btn3()" class="btn3">Continue</button>
+                                        </div>
+                                        
+                                        <div class="picture">
+                                <h3>choose an image of a computer</h3>  
+                                <div class="pic-content">
+                            
+                                 <img class="pic1 pic" id="pic1" src="bac.jpg" alt="computer" />   
+
+
+                                 <img class="pic2 pic" id="pic" src="art.jpg"  alt="art" />   
+                                 
+ 
+
+                                 <img class="pic3 pic" id="pic"   src="pexel.jpg" alt="" />   
+                                 
+
+                                  <img class="pic4 pic" id="pic"   src="diamond.png" alt="" />   
+                               
+                                </div>
+                                  <button type="submit" class="last">Continue</button>
+                                        </div>
+                   
+              </form>
+         </div>
+         <script src="form.js" type="text/javascript" charset="utf-8"></script>
+     </body>
+</html>

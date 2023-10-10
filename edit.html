@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Note App using JavaScript</title>
+  <link rel="stylesheet" href="edit.css">
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      <div class="text">Note App using JavaScript </div>
+        <div class="main">
+          <div class="etext">Start Writing note</div>
+          <input type="text" id="note-title" class="title-input" placeholder="Note title">
+          <textarea name="" id="note-body" cols="30" rows="10" class="body-input" placeholder="Enter note here"></textarea>
+          <div class="tag">
+            <a href="note.html">Go back</a> <span id="time-stamp"></span>
+          </div>
+          <div class="button">
+            <button id="remove-note" class="button button--secondary">Remove note</button>
+          </div>
+        </div>
+    </div>
+  </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment-with-locales.js"></script>
+<script src="js/functions.js"></script>
+<script src="js/edit.js"></script>
+</body>
+</html>
